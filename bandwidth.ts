@@ -1,4 +1,4 @@
-export const checkBandwidth = async (studentId?: string) => {
+export const checkBandwidth = async () => {
   setInterval(() => {
     bandWidthSpeed.measure(function(speedMbps: any) {
       console.log(speedMbps);
